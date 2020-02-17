@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport ProductCategories from \"./components/ProductCategories\";\n\nfunction HomePage() {\n  return __jsx(ProductCategories, null);\n}\n\nexport default HomePage;","map":null,"metadata":{},"sourceType":"module"}

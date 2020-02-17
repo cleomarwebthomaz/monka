@@ -1,0 +1,4 @@
+{
+    "ignore": ["resources/*", "next/*", "src/*", "admin/*"]
+  }
+  

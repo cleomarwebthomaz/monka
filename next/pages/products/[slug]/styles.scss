@@ -1,0 +1,33 @@
+.productShow {
+    .name {
+        color: #6F2C6D;
+    }
+
+    .btn-quantity {
+        &.left {
+            border-radius: 10px 0 0 10px;
+        }
+        &.right {
+            border-radius: 10px 10 10px 0;
+        }
+    }
+
+    .list-group-item {
+        padding: 0.5rem 1.25rem;
+    }
+
+    .groups {
+        .list-group-item.active {
+            background-color: #f5f5f5;
+            border-color: #f5f5f5;
+            color: #000;
+            opacity: .2
+        }
+    }
+
+    .spinner-border {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }
+}

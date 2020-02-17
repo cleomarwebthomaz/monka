@@ -1,0 +1,106 @@
+.product-item {
+    border-radius: 10px;
+
+    .card-title {
+        color: #6F2C6D;
+        font-size: 16px;
+    }
+
+    .card-footer {
+        background: none !important;
+    }
+
+    .price {
+        font-weight: bold;
+    }
+}
+
+.modal-product-show {
+    .list-group-item.active {
+        background-color: #C4C4C4;
+        border-color: #C4C4C4;
+    }
+
+    .modal-content {
+        overflow: hidden;
+    }
+
+    .modal-body-show {
+        overflow: auto;
+        max-height: 610;
+    }
+
+    .modal-footer {
+        background: #00BE33;
+        .quantity { font-size: 22px; }
+        .btn-primary {
+            background: none !important;
+            box-shadow: none !important;
+
+            .fas {
+                font-size: 22px;
+            }
+        }
+    }
+
+    @media(max-width: 768px) {
+        .modal-dialog {
+            margin: 0 !important;
+        }
+
+        .close {
+            z-index: 2;
+        }
+        
+        .modal-body-show {
+            margin-bottom: 35px;
+        }  
+
+        .modal-footer {
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            display: flex;
+            justify-content: space-around !important;
+        }
+
+        .btn-quantity {
+            margin-left: 0 !important;
+        }
+    }
+
+    .groups {
+        .title {
+            margin-left: -16px;
+            margin-right: -16px;
+            padding-left: 15px;
+            span {
+                font-weight: 300;
+                font-size: 12px;
+            }
+        }
+
+        .list-group-item.active {
+            background-color: #f5f5f5;
+            border-color: #f5f5f5;
+            color: #000;
+            opacity: .2
+        }
+
+        .list-group {
+            margin-left: -16px;
+            margin-right: -16px;
+
+            &-item{
+                padding: 0.5rem 1.25rem;
+                border-color: #E5E5E5;
+            }
+        }
+    }
+
+    .spinner-border {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }    
+}

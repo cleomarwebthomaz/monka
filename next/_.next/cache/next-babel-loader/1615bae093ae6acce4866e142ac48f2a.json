@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Pusher from 'pusher-js'; // // Enable pusher logging - don't include this in production\n\nPusher.logToConsole = false;\nvar pusher = new Pusher('fb5de6a6f7b0911af408', {\n  cluster: 'us2',\n  forceTLS: true\n});\nvar channel = pusher.subscribe('monka');\nexport default channel;","map":null,"metadata":{},"sourceType":"module"}

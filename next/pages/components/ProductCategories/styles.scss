@@ -1,0 +1,63 @@
+.navCategories {
+    background-color: #ECECEC;
+
+    .question { 
+        font-size: 15px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        font-weight: 300;
+    }
+
+    .slick-track {
+        display: flex;
+        align-items: center;
+    }
+    .slick-slide {
+        margin: 0 10px;
+    }
+
+    .slick-prev:before, .slick-next:before {
+        color: #6F2C6D;
+        font-family: inherit;
+    }
+
+    .card {
+        border-radius: 10px;
+        outline: none !important;
+        cursor: pointer;
+
+        &.selected {
+            box-shadow: inset #eee -1px -1px 9px 4px;
+            border: #6f2c6d solid 1px;
+        }
+
+        &.inactive {
+            opacity: .5;
+        }
+
+        img {
+            width: initial !important;
+            display: initial !important;
+        }
+
+        .card-body {
+            padding-top: 2px;
+            padding-bottom: 2px;
+
+            .card-title {
+                font-size: 11px;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .slick-slide {
+            margin: 0 5px;
+        }
+
+        .card-title {
+            font-size: 9px;
+        }
+    }
+
+}

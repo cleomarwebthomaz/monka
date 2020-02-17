@@ -1,0 +1,145 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css');
+
+$primary: #6F2C6D;
+$primary-sub: #8a3187;
+$danger: #f00;
+$secondary: #777777;
+$secondary-sub: #777777;
+$white: #fff;
+
+body { 
+    background: #fff;
+    color: #777777;
+}
+
+a {
+    color: $secondary;
+    text-decoration: none !important;
+
+    &:hover {
+        color: $secondary-sub;
+    }
+}
+
+.text-through { text-decoration: line-through; }
+
+.list-group-item.active { background: $primary; border-color: $primary-sub; }
+
+#wrapper { margin-top: 70px; }
+
+@media(max-width: 1200px) {
+    #wrapper { margin-top: 100px; }
+}
+
+@media(max-width: 768px) {
+    #wrapper { margin-top: 60px; }
+    h1 {
+        font-size: 23px;
+    }
+}
+
+.btn {
+    &-primary { 
+        background: $primary;
+        border-color: $primary-sub;
+        &:focus, &:hover, &:active { background: $primary !important; }
+
+        &.disabled, &:disabled {
+            background-color: #6f2c6d;
+            border-color: #6f2c6d;
+        }
+
+    }
+}
+
+.text {
+    &-primary{ color: $primary !important; }
+    &-danger { color: $danger !important; }
+}
+
+.bg {
+    &-light { background-color: #F5F5F5 !important; } 
+}
+
+.invalid-feedback { 
+    display: block;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+#wrapper {
+    min-height: 600px;
+}
+
+.spinner-border {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.navCategories {
+    background-color: #ECECEC;
+
+    .question { 
+        font-size: 15px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        font-weight: 300;
+    }
+
+    .slick-track {
+        display: flex;
+        align-items: center;
+    }
+    .slick-slide {
+        margin: 0 10px;
+    }
+
+    .slick-prev:before, .slick-next:before {
+        color: #6F2C6D;
+        font-family: inherit;
+    }
+
+    .card {
+        border-radius: 10px;
+        outline: none !important;
+        cursor: pointer;
+
+        &.selected {
+            box-shadow: inset #eee -1px -1px 9px 4px;
+            border: #6f2c6d solid 1px;
+        }
+
+        &.inactive {
+            opacity: .5;
+        }
+
+        img {
+            width: initial !important;
+            display: initial !important;
+        }
+
+        .card-body {
+            padding-top: 2px;
+            padding-bottom: 2px;
+
+            .card-title {
+                font-size: 11px;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .slick-slide {
+            margin: 0 5px;
+        }
+
+        .card-title {
+            font-size: 9px;
+        }
+    }
+
+}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var url = 'https://monka-net-br.umbler.net/api/v1';\nexport var oneSignal = {\n  appId: '9850ca27-e6c2-4260-b539-808ace52be3c',\n  appKey: ''\n};","map":null,"metadata":{},"sourceType":"module"}

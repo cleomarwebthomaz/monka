@@ -1,0 +1,25 @@
+#header {
+
+    .cart {
+        background: #00BE33;
+        color: #fff;
+
+        // & {
+        //     padding-left: 40px !important;
+        //     padding-right: 40px !important;
+        //     margin-right: -25px;
+        // }
+
+        .name {
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .prices {
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+    }
+
+}

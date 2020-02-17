@@ -1,0 +1,14 @@
+#footer {
+
+    .social {
+        a {
+            padding: 10px;
+        }
+    }
+
+    @media(max-width: 768px) {
+        .item {
+            margin-bottom: 15px;
+        }
+    }
+}

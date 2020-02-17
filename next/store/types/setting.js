@@ -1,0 +1,1 @@
+export const SET_SETTING = '[Setting] SET_SETTING';

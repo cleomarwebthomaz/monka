@@ -1,0 +1,14 @@
+<h1>Solicitação de recuperação de senha</h1>
+<p>
+     Olá {{ user.name }}, parece que alguém solicitou uma recuperação de senha
+     para sua conta registrada com o e-mail {{ user.email }}.
+</p>
+
+<p>
+  Se for você, basta clicar neste
+<a href="http://127.0.0.1:3333/users/forgotPassword/{{token}}/{{user.email}}">link</a>
+</p>
+
+<p>
+  Se não fosse você, recomendamos que você altere sua senha.. 🕵️‍🕵️‍🕵️‍🕵️‍🕵️‍🕵️‍🕵️
+</p>

@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const SET_SETTING = '[Setting] SET_SETTING';","map":{"version":3,"sources":["/Users/webthomaz/Desktop/Desenvolvimento/yardstick/next/store/types/setting.js"],"names":["SET_SETTING"],"mappings":"AAAA,OAAO,MAAMA,WAAW,GAAG,uBAApB","sourcesContent":["export const SET_SETTING = '[Setting] SET_SETTING';"]},"metadata":{},"sourceType":"module"}

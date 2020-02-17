@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { combineReducers } from 'redux';\nimport auth from './auth';\nimport cart from './cart';\nimport setting from './setting';\nimport breadcrumb from './breadcrumb';\nexport default combineReducers({\n  auth,\n  cart,\n  setting,\n  breadcrumb\n});","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var SET_SETTING = '[Setting] SET_SETTING';","map":{"version":3,"sources":["/Users/webthomaz/Desktop/Desenvolvimento/m/monka/monka-api/next/store/types/setting.js"],"names":["SET_SETTING"],"mappings":"AAAA,OAAO,IAAMA,WAAW,GAAG,uBAApB","sourcesContent":["export const SET_SETTING = '[Setting] SET_SETTING';"]},"metadata":{},"sourceType":"module"}

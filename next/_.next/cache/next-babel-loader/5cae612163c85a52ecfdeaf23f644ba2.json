@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var SET_USER = '[Auth] SET_USER';\nexport var SET_TOKEN = '[Auth] SET_TOKEN';\nexport var LOGOUT = '[Auth] LOGOUT';\nexport var SET_LOADED = '[Auth] SET_LOADED';","map":null,"metadata":{},"sourceType":"module"}

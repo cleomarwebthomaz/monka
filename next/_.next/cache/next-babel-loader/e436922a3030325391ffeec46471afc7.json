@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var url = 'https://10.0.1.60:3334/admin/api/v1/product';\nexport var oneSignal = {\n  appId: '9850ca27-e6c2-4260-b539-808ace52be3c',\n  appKey: ''\n};","map":null,"metadata":{},"sourceType":"module"}

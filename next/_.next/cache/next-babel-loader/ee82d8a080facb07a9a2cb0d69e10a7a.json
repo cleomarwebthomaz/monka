@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const ADD_CRUMB = '[Breadcrumb] ADD_CRUMB';\nexport const CRUMB_CLEAR = '[Breadcrumb] CRUMB_CLEAR';","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,23 @@
+#header {
+    background: #fff;
+    display: flex;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+
+    .storeStatus {
+        display: flex;
+        align-items: center;
+    }
+
+    @media (max-width: 768px) {
+        & {
+            border-bottom: #e6e6e6 solid 1px;
+        }
+
+        .logo {
+            margin-bottom: 7px;
+        }
+    }
+
+}
