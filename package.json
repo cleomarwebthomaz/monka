@@ -42,7 +42,7 @@
         "adonis-acl": "^1.1.1",
         "adonis-lucid-filter": "^1.0.5",
         "adonis-nextjs": "^3.1.1",
-        "axios": "^0.19.1",
+        "axios": "^0.21.1",
         "bootstrap": "^4.4.1",
         "delay": "^4.3.0",
         "expo-server-sdk": "^3.4.0",
